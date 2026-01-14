@@ -1,0 +1,4 @@
+alex,31,Moscow
+john,25,Berlin
+maria,28,Madrid
+kate,19,London
