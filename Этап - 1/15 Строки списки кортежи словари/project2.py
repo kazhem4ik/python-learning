@@ -42,6 +42,10 @@ while True:
             count += 1
             if i != int(len(names)) - 1:
                 names_str += ", "
+    elif user_input == '3':
+        user_search = input(f'Введите имя пользователя: ')
+        user_search.lower()
+        for name in users:
+            if user_search == name:
+                print(f'Пользователь {user_search} - возраст: {users[name]["age"]}, город {users[user_search]["city"]}')
                 
-        print(f'Пользователи старше {user_age} лет: {names_str}')
-        print(f'Всего пользователей старше {user_age} лет: {count}')
