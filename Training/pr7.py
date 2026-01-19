@@ -12,5 +12,4 @@ new_words = []
 for i in words:
     if i:
         new_words.append(i)
-print(words)
 print(new_words)

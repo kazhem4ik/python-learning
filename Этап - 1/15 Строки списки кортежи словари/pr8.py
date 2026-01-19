@@ -23,6 +23,7 @@ while True:
     elif user_input == "Нет": break
     else: print(f'Введите "Да" или "Нет')
 print(users)
+print("Программа завершена")
 # 4️⃣ Выводим итоговый словарь
 #name = input("Введите имя пользователя: ")
 #print(f"Сотрудник {name.title()}\nвозраст: {users[name.title()]['Возраст']} год\nстатус: {users[name.title()]['Статус']}\nформат работы: {users[name.title()]['Формат']}")

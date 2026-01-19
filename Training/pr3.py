@@ -31,6 +31,6 @@ file = open("user.txt", "r")
 r = file.read()
 lines = r.split("\n")   # разбили строку на список строк
 print(lines)
-count = len(lines)      # записали в переменную coun количество строк
+count = len(lines)      # записали в переменную count количество строк
 print("Количество строк:", count)
 file.close()
