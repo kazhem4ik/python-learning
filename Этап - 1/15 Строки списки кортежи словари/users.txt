@@ -2,3 +2,6 @@ alex,31,Moscow
 john,25,Berlin
 maria,28,Madrid
 kate,19,London
+joni,24,new york
+ekterina,40,spb
+גûפ,23,גפûג
